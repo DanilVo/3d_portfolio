@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { projects } from "../constants/index";
-import arrow from '../assets/icons/arrow.svg'
+import arrow from "../assets/icons/arrow.svg";
+import CTA from "../components/CTA";
 
 const Projects = () => {
   return (
@@ -34,9 +35,11 @@ const Projects = () => {
               </div>
             </div>
             <div className="mt-5 flex flex-col">
-              <h4 className="text-2xl font-poppins font-semibold">{project.name}</h4>
-              <p className="mt-2">{project.description}</p>
-              <div>
+              <h4 className="text-2xl font-poppins font-semibold">
+                {project.name}
+              </h4>
+              <p className="mt-2 text-slate-500">{project.description}</p>
+              <div className="mt-5 flex items-center gap-2 font-poppins">
                 <Link
                   to={project.link}
                   target="_black"
@@ -55,6 +58,8 @@ const Projects = () => {
           </div>
         ))}
       </div>
+      <hr className="border-slate-200" />
+      <CTA />
     </section>
   );
 };
