@@ -27,6 +27,9 @@ import {
 } from "../assets/icons";
 
 import tripblitz from '../assets/icons/tripblitz.svg'
+import blueWaveCrypto from "../assets/icons/bluewavecrypto.svg";
+import youtobe from "../assets/icons/youtobe.svg";
+import windows from "../assets/icons/windows-xp.svg";
 
 export const skills = [
   {
@@ -190,32 +193,32 @@ export const projects = [
     theme: "btn-back-blue",
     name: "Full Stack Vacation Booking",
     description:
-      "Created a user-friendly vacation booking platform that simplifies the process of booking trips, offering a wide range of destinations. Users can easily browse, compare prices, and book their dream vacations.",
+      "Created a user-friendly vacation booking platform that simplifies the process of booking trips, with a wide range of destinations. Users can easily browse, compare prices, and book their vacations.",
     link: "http://159.89.186.34:5173/",
   },
   {
-    iconUrl: threads,
-    theme: "btn-back-green",
-    name: "Full Stack Threads Clone",
-    description:
-      'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-    link: "https://github.com/adrianhajdin/threads",
-  },
-  {
-    iconUrl: car,
-    theme: "btn-back-blue",
-    name: "Car Finding App",
-    description:
-      "Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.",
-    link: "https://github.com/adrianhajdin/project_next13_car_showcase",
-  },
-  {
-    iconUrl: snapgram,
+    iconUrl: blueWaveCrypto,
     theme: "btn-back-pink",
-    name: "Full Stack Instagram Clone",
+    name: "Crypto Currency Tracker",
     description:
-      "Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.",
-    link: "https://github.com/adrianhajdin/social_media_app",
+      "Built an easy-to-use app for tracking cryptocurrency prices and market trends, helping users make smart investment choices and manage their digital assets with ease..",
+    link: "https://danilvo.github.io/JB-Front-End-Web-Developer-Project/",
+  },
+  {
+    iconUrl: youtobe,
+    theme: "btn-back-red",
+    name: "YouTube Clone",
+    description:
+      "Developed a user-friendly YouTube-like app where users watch videos seamlessly, fostering a vibrant community of content creators and viewers.",
+    link: "https://danilvo.github.io/You-Tube-Clone/",
+  },
+  {
+    iconUrl: windows,
+    theme: "btn-back-blue",
+    name: "Task Board App",
+    description:
+      "Designed a task board app with a unique interface, allowing users to organize, and track their tasks effortlessly.",
+    link: "https://danilvo.github.io/Jhon-Bryce-Project-1/",
   },
   {
     iconUrl: estate,
@@ -224,13 +227,5 @@ export const projects = [
     description:
       "Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.",
     link: "https://github.com/adrianhajdin/projects_realestate",
-  },
-  {
-    iconUrl: summiz,
-    theme: "btn-back-yellow",
-    name: "AI Summarizer Application",
-    description:
-      "App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.",
-    link: "https://github.com/adrianhajdin/project_ai_summarizer",
   },
 ];
