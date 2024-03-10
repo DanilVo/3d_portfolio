@@ -26,6 +26,8 @@ import {
   typescript,
 } from "../assets/icons";
 
+import tripblitz from '../assets/icons/tripblitz.svg'
+
 export const skills = [
   {
     imageUrl: css,
@@ -173,23 +175,23 @@ export const socialLinks = [
   {
     name: "GitHub",
     iconUrl: github,
-    link: "https://github.com/YourGitHubUsername",
+    link: "https://github.com/DanilVo",
   },
   {
     name: "LinkedIn",
     iconUrl: linkedin,
-    link: "https://www.linkedin.com/in/YourLinkedInUsername",
+    link: "https://www.linkedin.com/in/danil-volobuyev/",
   },
 ];
 
 export const projects = [
   {
-    iconUrl: pricewise,
-    theme: "btn-back-red",
-    name: "Amazon Price Tracker",
+    iconUrl: tripblitz,
+    theme: "btn-back-blue",
+    name: "Full Stack Vacation Booking",
     description:
-      "Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.",
-    link: "https://github.com/adrianhajdin/pricewise",
+      "Created a user-friendly vacation booking platform that simplifies the process of booking trips, offering a wide range of destinations. Users can easily browse, compare prices, and book their dream vacations.",
+    link: "http://159.89.186.34:5173/",
   },
   {
     iconUrl: threads,
