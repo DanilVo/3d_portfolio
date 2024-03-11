@@ -1,35 +1,30 @@
 import { meta, shopify, starbucks, tesla } from "../assets/images";
 import {
-  car,
   contact,
   css,
-  estate,
   express,
-  git,
   github,
   html,
   javascript,
   linkedin,
-  mongodb,
   motion,
   mui,
-  nextjs,
   nodejs,
-  pricewise,
   react,
   redux,
-  sass,
-  snapgram,
-  summiz,
   tailwindcss,
-  threads,
   typescript,
+  tripblitz,
+  blueWaveCrypto,
+  youtobe,
+  windows,
+  cloud,
+  spotify,
+  sql,
+  docker,
+  jb,
+  geekbrains
 } from "../assets/icons";
-
-import tripblitz from '../assets/icons/tripblitz.svg'
-import blueWaveCrypto from "../assets/icons/bluewavecrypto.svg";
-import youtobe from "../assets/icons/youtobe.svg";
-import windows from "../assets/icons/windows-xp.svg";
 
 export const skills = [
   {
@@ -41,11 +36,6 @@ export const skills = [
     imageUrl: express,
     name: "Express",
     type: "Backend",
-  },
-  {
-    imageUrl: git,
-    name: "Git",
-    type: "Version Control",
   },
   {
     imageUrl: github,
@@ -63,11 +53,6 @@ export const skills = [
     type: "Frontend",
   },
   {
-    imageUrl: mongodb,
-    name: "MongoDB",
-    type: "Database",
-  },
-  {
     imageUrl: motion,
     name: "Motion",
     type: "Animation",
@@ -75,11 +60,6 @@ export const skills = [
   {
     imageUrl: mui,
     name: "Material-UI",
-    type: "Frontend",
-  },
-  {
-    imageUrl: nextjs,
-    name: "Next.js",
     type: "Frontend",
   },
   {
@@ -98,11 +78,6 @@ export const skills = [
     type: "State Management",
   },
   {
-    imageUrl: sass,
-    name: "Sass",
-    type: "Frontend",
-  },
-  {
     imageUrl: tailwindcss,
     name: "Tailwind CSS",
     type: "Frontend",
@@ -112,61 +87,43 @@ export const skills = [
     name: "TypeScript",
     type: "Frontend",
   },
+  {
+    imageUrl: sql,
+    name: "SQL",
+    type: "Database",
+  },
+  {
+    imageUrl: docker,
+    name: "Docker",
+    type: "Containerization platform",
+  },
 ];
 
 export const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#accbe1",
-    date: "March 2020 - April 2021",
+    title: "Software Development",
+    company_name: "GeekBrains",
+    icon: geekbrains,
+    iconBg: "#ccc",
+    date: "October 2021 - July 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Comprehensive Programming Fundamentals: Acquired foundational knowledge in programming through hands-on learning in Python, C#, and JavaScript.",
+      "Focused Logic and Problem-Solving Training: Engaged in a structured learning environment aimed at enhancing logical thinking and problem-solving abilities crucial for software development.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#fbc3bc",
-    date: "Jan 2021 - Feb 2022",
+    title: "Full-Stack Development",
+    company_name: "John Bryce",
+    icon: jb,
+    iconBg: "#ff948c",
+    date: "February 2023 - February 2024",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Participated in all phases of software development lifecycle, from initial concept to deployment and maintenance.",
+      "Utilized TypeScript, Node.js, Express, MUI, Docker, Vite + React, Digitalocean and Mysql to build responsive and scalable web applications.",
+      "Independently conceived, developed, and deployed 6 dynamic self-projects, demonstrating a proactive approach to learning and applying full-stack development skills.",
     ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#b7e4c7",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#a2d2ff",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  }
 ];
 
 export const socialLinks = [
@@ -201,7 +158,7 @@ export const projects = [
     theme: "btn-back-pink",
     name: "Crypto Currency Tracker",
     description:
-      "Built an easy-to-use app for tracking cryptocurrency prices and market trends, helping users make smart investment choices and manage their digital assets with ease..",
+      "Built an easy-to-use app for tracking cryptocurrency prices and market trends, helping users make smart investment choices and manage their digital assets with ease.",
     link: "https://danilvo.github.io/JB-Front-End-Web-Developer-Project/",
   },
   {
@@ -221,11 +178,19 @@ export const projects = [
     link: "https://danilvo.github.io/Jhon-Bryce-Project-1/",
   },
   {
-    iconUrl: estate,
+    iconUrl: cloud,
     theme: "btn-back-black",
-    name: "Real-Estate Application",
+    name: "Basic Weather App",
     description:
-      "Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.",
-    link: "https://github.com/adrianhajdin/projects_realestate",
+      "Crafted a sleek weather app for easy access to accurate forecasts, keeping users prepared for any conditions.",
+    link: "https://danilvo.github.io/WeatherApp/",
+  },
+  {
+    iconUrl: spotify,
+    theme: "btn-back-green",
+    name: "Spotify Clone",
+    description:
+      "My journey into the world of development commenced with this initial project, a basic front-end clone created solely with HTML and CSS.",
+    link: "https://danilvo.github.io/Spotify-Clone/",
   },
 ];

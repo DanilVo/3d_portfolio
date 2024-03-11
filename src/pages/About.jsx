@@ -16,7 +16,7 @@ const About = () => {
         </span>
       </h1>
       <div className="mt-5 flex flex-col gap-3 text-slate-500">
-        <p>Fullstack developer based in Israel</p>
+        <p>Full-stack developer based in Israel, equipped with a diverse skill set ready for action.</p>
       </div>
       <div className="py-10 flex flex-col">
         <h3 className="subhead-text">My Skills:</h3>
@@ -37,9 +37,12 @@ const About = () => {
       </div>
 
       <div className="py-16">
-        <h3 className="subhead-text">Work experience</h3>
+        <h3 className="subhead-text">Experience</h3>
         <div className="mt-5 flex flex-col gap-3 text-slate-500">
-          <p>Work experience</p>
+          <p>My journey in development has been a thrilling exploration of knowledge and skill enhancement.
+             From immersing myself in comprehensive courses to delving into challenging projects, 
+             I've been on a quest for continuous improvement.
+             Here's a brief overview of my educational journey:</p>
         </div>
         <div className="mt-12 flex">
           <VerticalTimeline>
