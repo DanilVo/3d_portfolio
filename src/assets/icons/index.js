@@ -26,6 +26,7 @@ import sql from './sql.svg'
 import docker from './docker.svg'
 import jb from './JB.svg'
 import geekbrains from './geekbrains.svg'
+import resume from "./resume.svg";
 
 export {
     css,
@@ -55,5 +56,6 @@ export {
     sql,
     docker,
     jb,
-    geekbrains
+    geekbrains,
+    resume
 }

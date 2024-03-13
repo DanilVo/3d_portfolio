@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import resumePdf from "../assets/DanilolobuyevResume.pdf";
 import {
   contact,
   css,
@@ -23,7 +23,8 @@ import {
   sql,
   docker,
   jb,
-  geekbrains
+  geekbrains,
+  resume
 } from "../assets/icons";
 
 export const skills = [
@@ -141,6 +142,11 @@ export const socialLinks = [
     name: "LinkedIn",
     iconUrl: linkedin,
     link: "https://www.linkedin.com/in/danil-volobuyev/",
+  },
+  {
+    name: "Resume",
+    iconUrl: resume,
+    link: resumePdf,
   },
 ];
 

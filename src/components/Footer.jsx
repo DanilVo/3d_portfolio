@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
-    <footer className='footer font-poppins'>
+    <footer className="footer font-poppins">
       <hr className="border-slate-200" />
 
       <div className="footer-container">
@@ -15,7 +15,12 @@ const Footer = () => {
 
         <div className="flex gap-3 justify-center items-center">
           {socialLinks.map((link) => (
-            <Link key={link.name} to={link.link} target="_blank">
+            <Link
+              key={link.name}
+              to={link.link}
+              target="_blank"
+              download="Resume-Danil-Volobuyev.pdf"
+            >
               <img
                 src={link.iconUrl}
                 alt={link.name}
